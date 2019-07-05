@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NationKeEmailDownload", "NationKeEmailDownload.csproj", "{78BDE15A-264F-4A26-941B-3E0A3576979D}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "NMG_Email_Downloader", "..\NMG_Email_Downloader\NMG_Email_Downloader.aiproj", "{EFE1A0A2-D6FB-45EB-953C-7E0F4A442AD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78BDE15A-264F-4A26-941B-3E0A3576979D}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{78BDE15A-264F-4A26-941B-3E0A3576979D}.All|Any CPU.Build.0 = Release|Any CPU
+		{78BDE15A-264F-4A26-941B-3E0A3576979D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BDE15A-264F-4A26-941B-3E0A3576979D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BDE15A-264F-4A26-941B-3E0A3576979D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78BDE15A-264F-4A26-941B-3E0A3576979D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE1A0A2-D6FB-45EB-953C-7E0F4A442AD5}.All|Any CPU.ActiveCfg = DefaultBuild
+		{EFE1A0A2-D6FB-45EB-953C-7E0F4A442AD5}.All|Any CPU.Build.0 = DefaultBuild
+		{EFE1A0A2-D6FB-45EB-953C-7E0F4A442AD5}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{EFE1A0A2-D6FB-45EB-953C-7E0F4A442AD5}.Debug|Any CPU.Build.0 = DefaultBuild
+		{EFE1A0A2-D6FB-45EB-953C-7E0F4A442AD5}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{EFE1A0A2-D6FB-45EB-953C-7E0F4A442AD5}.Release|Any CPU.Build.0 = DefaultBuild
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB4FE60C-110F-4FE0-AEF6-8B0DFCD17D23}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+﻿1>------ Build started: Project: NationKeEmailDownload, Configuration: Debug Any CPU ------
+1>  NationKeEmailDownload -> C:\Users\Inmobia\source\repos\NationKeEmailDownload\bin\Debug\NationKeEmailDownload.exe
+Building NationKeEmailDownload...
+2>------ Publish started: Project: NationKeEmailDownload, Configuration: Debug Any CPU ------
+Connecting to 'C:\Users\Inmobia\Desktop\NMG_application\'...
+Publishing files...
+Publish success.
+C:\Users\Inmobia\Desktop\NMG_application\
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Publish: 1 succeeded, 0 failed, 0 skipped ==========

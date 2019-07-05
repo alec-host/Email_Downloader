@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<nationmedia>
+    <connectionString>Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=NMG;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False</connectionString>
+    <tableName>tbl_mail</tableName>
+    <emailUrl>https://outlook.office365.com/EWS/Exchange.asmx</emailUrl>
+    <address>sochola@ke.nationmedia.com</address>
+    <password>1c1pE9494</password>
+</nationmedia>
