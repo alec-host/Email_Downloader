@@ -26,7 +26,7 @@
     <ProductName>NMG mail downloader</ProductName>
     <PublisherName>-[Prof]-</PublisherName>
     <SuiteName>NMG mail downloader</SuiteName>
-    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>

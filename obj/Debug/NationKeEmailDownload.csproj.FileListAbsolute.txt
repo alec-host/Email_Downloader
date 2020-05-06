@@ -1,4 +1,6 @@
 C:\Users\Inmobia\source\repos\NationKeEmailDownload\bin\Debug\NationKeEmailDownload.exe.config
+C:\Users\Inmobia\source\repos\NationKeEmailDownload\bin\Debug\NationKeEmailDownload.exe.manifest
+C:\Users\Inmobia\source\repos\NationKeEmailDownload\bin\Debug\NationKeEmailDownload.application
 C:\Users\Inmobia\source\repos\NationKeEmailDownload\bin\Debug\NationKeEmailDownload.exe
 C:\Users\Inmobia\source\repos\NationKeEmailDownload\bin\Debug\NationKeEmailDownload.pdb
 C:\Users\Inmobia\source\repos\NationKeEmailDownload\bin\Debug\Microsoft.Exchange.WebServices.Auth.dll
@@ -7,12 +9,10 @@ C:\Users\Inmobia\source\repos\NationKeEmailDownload\bin\Debug\Microsoft.Exchange
 C:\Users\Inmobia\source\repos\NationKeEmailDownload\bin\Debug\Microsoft.Exchange.WebServices.xml
 C:\Users\Inmobia\source\repos\NationKeEmailDownload\bin\Debug\Microsoft.Exchange.WebServices.Auth.pdb
 C:\Users\Inmobia\source\repos\NationKeEmailDownload\bin\Debug\Microsoft.Exchange.WebServices.Auth.xml
+C:\Users\Inmobia\source\repos\NationKeEmailDownload\obj\Debug\NationKeEmailDownload.csprojAssemblyReference.cache
 C:\Users\Inmobia\source\repos\NationKeEmailDownload\obj\Debug\NationKeEmailDownload.csproj.CoreCompileInputs.cache
+C:\Users\Inmobia\source\repos\NationKeEmailDownload\obj\Debug\NationKeEmailDownload.exe.manifest
+C:\Users\Inmobia\source\repos\NationKeEmailDownload\obj\Debug\NationKeEmailDownload.application
 C:\Users\Inmobia\source\repos\NationKeEmailDownload\obj\Debug\NationKeEmailDownload.csproj.CopyComplete
 C:\Users\Inmobia\source\repos\NationKeEmailDownload\obj\Debug\NationKeEmailDownload.exe
 C:\Users\Inmobia\source\repos\NationKeEmailDownload\obj\Debug\NationKeEmailDownload.pdb
-C:\Users\Inmobia\source\repos\NationKeEmailDownload\bin\Debug\NationKeEmailDownload.exe.manifest
-C:\Users\Inmobia\source\repos\NationKeEmailDownload\bin\Debug\NationKeEmailDownload.application
-C:\Users\Inmobia\source\repos\NationKeEmailDownload\obj\Debug\NationKeEmailDownload.exe.manifest
-C:\Users\Inmobia\source\repos\NationKeEmailDownload\obj\Debug\NationKeEmailDownload.application
-C:\Users\Inmobia\source\repos\NationKeEmailDownload\obj\Debug\NationKeEmailDownload.csprojAssemblyReference.cache

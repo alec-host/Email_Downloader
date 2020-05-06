@@ -24,7 +24,7 @@ namespace NationKeEmailDownload
             this.tableName = tableName;
         }
         //-.method to download emails & write to db.
-        public void SaveData(string message_id,string from,string to, string cc, string subject, string body, string recieve_date ,DateTime datetime, int flag)
+        public void SaveData(string message_id,string from,string to, string cc, string subject, string body, DateTime recieve_date ,DateTime datetime, int flag)
         {
             conn = new SqlConnection(connectionString);
 
