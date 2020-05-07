@@ -10,11 +10,10 @@ namespace NationKeEmailDownload
 {
     class Program
     {
-        private static string connectionString = null;
+        private static string dbConnect = null;
         private static string tableName = null;
         private static string emailURL = null;
         private static string address = null;
-        private static string password = null;
         private static int loopCount = 0;
 
         private static string inputString;
@@ -52,7 +51,7 @@ namespace NationKeEmailDownload
                 //-.read xml file.
                 string config = xmlFile.ReadXmlFile(data[0], data[1]);
 
-                connectionString = config.Split('#')[0];
+                dbConnect        = config.Split('#')[0];
                 tableName        = config.Split('#')[1];
                 emailURL         = config.Split('#')[2];
                 address          = config.Split('#')[3];
@@ -70,7 +69,7 @@ namespace NationKeEmailDownload
                     for (int j=0;j<=emailArray.Length-1;j++)
                     {
                         listOfEmail.Add(emailArray[j]);
-                        Console.WriteLine("Email list  "+j+"  "+ emailArray[j]);
+                        Console.WriteLine(j+"  "+ emailArray[j]);
                     }
 
                     while (true)
@@ -79,23 +78,14 @@ namespace NationKeEmailDownload
                         //-.fetch each item in a list.
                         foreach (var fetchedEmail in listOfEmail)
                         {
-                            EmailDownloader(connectionString, tableName, emailURL, fetchedEmail.Split('|')[0], fetchedEmail.Split('|')[1]);
+                            EmailDownloader(dbConnect, tableName, emailURL, fetchedEmail.Split('|')[0], fetchedEmail.Split('|')[1]);
                             Console.WriteLine("" + loopCount+ " "+ fetchedEmail.Split('|')[0]);
                         }
                     }
                 }
                 else
                 {
-                    Console.WriteLine("========================");
-                    Console.Out.WriteLine("Single Email");
-                    Console.WriteLine("========================");
-                    while (true)
-                    {
-                        loopCount = (loopCount + 1);
-                        EmailDownloader(connectionString, tableName, emailURL, address, password);
-
-                        Console.WriteLine("" + loopCount);
-                    }
+                    Console.Out.WriteLine("Email information not set");
                 }
             }
             else
@@ -170,7 +160,6 @@ namespace NationKeEmailDownload
 
                         if (loopCount >= 1000)
                         {
-
                             Environment.Exit(0);
                         }
                     }

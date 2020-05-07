@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NationKeEmailDownload.exe" size="48112">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NationKeEmailDownload.exe" size="47600">
       <assemblyIdentity name="NationKeEmailDownload" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jIBbxCoG+krMceDaK6MCMfSQJcYWMLzxUgf4XlrSJBw=</dsig:DigestValue>
+        <dsig:DigestValue>CNs0UwxH3tEtFp/oZP3SISzUm2IyZeOIE0pYXHkx+uU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
